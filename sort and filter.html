@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Customer Details</title>
+  <link rel="stylesheet" href="sort and filter.css">
+</head>
+<body>
+  <h2>Customer Details</h2>
+  <div class="filter-container">
+    <label for="filterInput">Filter: </label>
+    <input type="text" id="filterInput" placeholder="Search customers...">
+  </div>
+  <table id="customerTable">
+    <thead>
+      <tr>
+        <th data-column="id" data-order="desc">ID</th>
+        <th data-column="name" data-order="desc">Name</th>
+        <th data-column="email" data-order="desc">Email</th>
+        <th data-column="phone" data-order="desc">Phone</th>
+        <th data-column="city" data-order="desc">City</th>
+        <th data-column="state" data-order="desc">State</th>
+        <th data-column="country" data-order="desc">Country</th>
+        <th data-column="regDate" data-order="desc">Registration Date</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>Devika</td>
+        <td>dev@example.com</td>
+        <td>5551234567</td>
+        <td>AKIVIDU</td>
+        <td>AP</td>
+        <td>INDIA</td>
+        <td>2024-01-15</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>satish ganta</td>
+        <td>satish@example.com</td>
+        <td>5559876543</td>
+        <td>GUDIVADA</td>
+        <td>AP</td>
+        <td>INDIA</td>
+        <td>2023-03-22</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>pandu</td>
+        <td>pandu@example.com</td>
+        <td>5554567890</td>
+        <td>HYDERABAD</td>
+        <td>TS</td>
+        <td>INDIA</td>
+        <td>2022-07-10</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>nikhil</td>
+        <td>nikhil@example.com</td>
+        <td>5556543210</td>
+        <td>VIJAYAWADA</td>
+        <td>AP</td>
+        <td>INDIA</td>
+        <td>2022-11-05</td>
+      </tr>
+      <tr>
+        <td>5</td>
+        <td>David</td>
+        <td>david@example.com</td>
+        <td>5551112222</td>
+        <td>BHIMAVARAM</td>
+        <td>AP</td>
+        <td>INDIA</td>
+        <td>2023-01-15</td>
+      </tr>
+      <tr>
+        <td>6</td>
+        <td>kavya</td>
+        <td>kavya@example.com</td>
+        <td>5553334444</td>
+        <td>VIJAYAWADA</td>
+        <td>AP</td>
+        <td>INDIA</td>
+        <td>2023-02-20</td>
+      </tr>
+      <tr>
+        <td>7</td>
+        <td>Wilson</td>
+        <td>liam@example.com</td>
+        <td>5555556666</td>
+        <td>BANGLORE</td>
+        <td>KS</td>
+        <td>INDIA</td>
+        <td>2021-09-30</td>
+      </tr>
+      <tr>
+        <td>8</td>
+        <td>deviii</td>
+        <td>devii@example.com</td>
+        <td>5557778888</td>
+        <td>RAJAMUNDRY</td>
+        <td>AP</td>
+        <td>INDIA</td>
+        <td>2020-12-05</td>
+      </tr>
+    </tbody>
+  </table>
+  <script src="sort and filter.js"></script>
+</body>
+</html>
